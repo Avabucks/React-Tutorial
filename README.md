@@ -212,6 +212,15 @@ import { Text, View, Button, Alert } from 'react-native';
 import * as Notifications from 'expo-notifications';
 import * as Device from 'expo-device';
 
+// Configure how notifications behave when received in foreground
+Notifications.setNotificationHandler({
+  handleNotification: async () => ({
+    shouldShowAlert: true,
+    shouldPlaySound: false,
+    shouldSetBadge: false,
+  }),
+});
+
 export default function App() {
   const [expoPushToken, setExpoPushToken] = useState('');
 
