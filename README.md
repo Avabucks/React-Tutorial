@@ -70,7 +70,7 @@ npx expo start
 npx expo start --web
 ```
 
-### Build APK/AAB per Android
+## Build APK/AAB per Android
 1. Costruisci il pacchetto per Android (AAB)
 
 ```bash
@@ -82,13 +82,13 @@ eas build --platform android
 eas build --platform android --profile preview
 ```
 
-### Convertire un file AAB in APK
+## Convertire un file AAB in APK
 Assicurati di avere bundletool.jar scaricato e usa il comando seguente
 ```bash
 java -jar bundletool.jar build-apks --bundle=app.aab --output=app.apks --mode=universal
 ```
 
-### REST API JSON
+## REST API JSON
 Codice PHP per creazione JSON:
 
 ```php
@@ -141,7 +141,7 @@ export default function App() {
 }
 ```
 
-### Push Notification
+## Push Notification
 Installa la dipendenza
 
 ```bash
