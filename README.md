@@ -67,6 +67,7 @@ npx expo start
 
 5. Avvia il progetto in modalità Web
 ```bash
+npx expo install react-dom react-native-web @expo/metro-runtime
 npx expo start --web
 ```
 
