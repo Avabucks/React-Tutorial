@@ -81,6 +81,7 @@ eas build --platform android
 2. Costruisci un pacchetto per Android con profilo di anteprima (APK)
 ```bash
 eas build --platform android --profile preview
+eas build -p android --profile preview --local
 ```
 
 ## Convertire un file AAB in APK
